@@ -33,10 +33,16 @@ You can find a list of modules here.
 
 All modules are available for you installaton 
 
+#### Managing with SUSEConnect 
+
+sudo SUSEConnect --list-extensions
+
 ### Extensions ### 
 
 They hold specific software-extension like high availability.
 You have to buy a license to use them.
+
+
 
 ### Show available patterns ### 
 

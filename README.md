@@ -33,7 +33,7 @@ You can find a list of modules here.
 
 All modules are available for you installaton 
 
-#### Managing with SUSEConnect 
+#### Managing modules with SUSEConnect 
 
 ```
 sudo SUSEConnect --list-extensions

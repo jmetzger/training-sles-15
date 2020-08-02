@@ -35,7 +35,9 @@ All modules are available for you installaton
 
 #### Managing with SUSEConnect 
 
+```
 sudo SUSEConnect --list-extensions
+```
 
 ### Extensions ### 
 

@@ -8,6 +8,17 @@ Training Potsdam SLES 15
 sudo loadkeys de 
 ```
 
+## Commands ## 
+
+```
+# Kernelversion die geladen ist, anzeigen 
+less filename # pager 
+cat /boot/meinfile | less  # verlassen mit q + return 
+uname -a 
+
+```
+
+
 ## Registration ## 
 
 ### Registering on command line ###

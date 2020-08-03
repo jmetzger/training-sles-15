@@ -7,6 +7,9 @@ Training Potsdam SLES 15
 # switch to german layout
 sudo loadkeys de 
 ```
+## autoyast ##
+https://documentation.suse.com/sles/15-SP1/html/SLES-all/book-autoyast.html
+
 
 ## Kernel Parameters at boot time ##
 

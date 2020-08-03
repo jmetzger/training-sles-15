@@ -45,8 +45,22 @@ They hold specific software-extension like high availability.
 You have to buy a license to use them.
 
 
+### Show available modules and extensions ###
+
+```
+SUSEConnect --list-extensions 
+```
+
+### Activate module "Desktop" -  so that it is possible to install Gnome ###
+
+```
+SUSEConnect -p sle-module-desktop-applications/15.2/x86_64
+```
+
 
 ### Show available patterns ### 
 
+```
+zypper search patterns_
 ```
 

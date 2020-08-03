@@ -20,7 +20,8 @@ Cheatsheet: https://danilodellaquila.com/en/blog/linux-package-management-cheats
 less filename # pager 
 cat /boot/meinfile | less  # verlassen mit q + return 
 uname -a 
-
+# which - zeigt alle Vorkommen eines Befehls im Pfad -> echo $PATH
+which depmod 
 ```
 
 

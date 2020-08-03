@@ -22,6 +22,10 @@ cat /boot/meinfile | less  # verlassen mit q + return
 uname -a 
 # which - zeigt alle Vorkommen eines Befehls im Pfad -> echo $PATH
 which depmod 
+# show all line with c at the beginning of line 
+ls -la /dev | grep ^c
+# show all lines with k at the end of the line 
+ls -la /dev | grep k$ 
 ```
 
 

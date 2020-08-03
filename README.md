@@ -8,6 +8,11 @@ Training Potsdam SLES 15
 sudo loadkeys de 
 ```
 
+## Package Management ## 
+
+Cheatsheet: https://danilodellaquila.com/en/blog/linux-package-management-cheatsheet
+
+
 ## Commands ## 
 
 ```

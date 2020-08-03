@@ -8,6 +8,11 @@ Training Potsdam SLES 15
 sudo loadkeys de 
 ```
 
+## Kernel - crashkernel ## 
+
+https://www.suse.com/de-de/support/kb/doc/?id=000016171
+
+
 ## Package Management ## 
 
 Cheatsheet: https://danilodellaquila.com/en/blog/linux-package-management-cheatsheet

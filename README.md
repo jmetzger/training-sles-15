@@ -61,6 +61,7 @@ SUSEConnect -p sle-module-desktop-applications/15.2/x86_64
 ### Show available patterns ### 
 
 ```
+# patterns = groups of software packages, that can be easily installed
 zypper search patterns_
 ```
 

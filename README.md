@@ -8,6 +8,10 @@ Training Potsdam SLES 15
 sudo loadkeys de 
 ```
 
+## Kernel Parameters at boot time ##
+
+https://documentation.suse.com/sles/15-SP1/html/SLES-all/cha-boot-parameters.html
+
 ## Kernel - crashkernel ## 
 
 https://www.suse.com/de-de/support/kb/doc/?id=000016171

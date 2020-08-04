@@ -7,6 +7,11 @@ Training Potsdam SLES 15
 # switch to german layout
 sudo loadkeys de 
 ```
+## grep - show header 
+
+```
+ps xo pid,comm | head -n 1; ps xo pid,comm | grep 11
+```
 
 ## systemctl cheatsheet ##
 

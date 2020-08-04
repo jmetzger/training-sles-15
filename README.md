@@ -8,6 +8,10 @@ Training Potsdam SLES 15
 sudo loadkeys de 
 ```
 
+## systemctl cheatsheet ##
+
+https://www.linuxtrainingacademy.com/systemd-cheat-sheet/
+
 ## zypper ##
 https://en.opensuse.org/images/1/17/Zypper-cheat-sheet-1.pdf
 

@@ -1,6 +1,11 @@
 # 2020sles15
 Training Potsdam SLES 15
 
+## GIT pdf 
+
+http://schulung.t3isp.de/documents/pdfs/git/git-training.pdf
+
+
 ## Change console layout 
 
 ```

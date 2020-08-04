@@ -7,6 +7,16 @@ Training Potsdam SLES 15
 # switch to german layout
 sudo loadkeys de 
 ```
+
+## zypper ##
+https://en.opensuse.org/images/1/17/Zypper-cheat-sheet-1.pdf
+
+```
+zypper patch-check 
+# show only the first column -> result -> amount of patches that can be done 
+zypper patch-check | tail -n 1 | cut -d ' ' -f1 # show field 1 -> -f1 && use space as delimiter -d ' '  
+```
+
 ## autoyast ##
 https://documentation.suse.com/sles/15-SP1/html/SLES-all/book-autoyast.html
 

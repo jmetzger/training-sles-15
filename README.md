@@ -1,6 +1,10 @@
 # 2020sles15
 Training Potsdam SLES 15
 
+## basic networking ##
+
+https://documentation.suse.com/sles/15-SP2/html/SLES-all/cha-network.html#sec-network-addresses
+
 ## sed ##
 
 Good introduction 

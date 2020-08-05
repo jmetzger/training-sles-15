@@ -71,6 +71,13 @@ https://wiki.samba.org/index.php/Setting_up_a_Share_Using_Windows_ACLs
 
 But a bit tricky 
 
+### Mount other share on other server (samba) ###
+
+```
+mount.cifs //10.10.2.106/dokumente /mnt/dokumente -o username=training,password=training
+# or mount -t cifs 
+```
+
 ## basic networking ##
 
 https://documentation.suse.com/sles/15-SP2/html/SLES-all/cha-network.html#sec-network-addresses

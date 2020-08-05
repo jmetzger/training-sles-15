@@ -56,6 +56,8 @@ https://documentation.suse.com/sles/15-SP2/html/SLES-all/cha-samba.html
 Manage samba-password db:
 # list all files 
 pdbedit -L 
+
+## Important 
 smbpasswd -a training # add linux user to samba password db 
 ``` 
 
@@ -63,6 +65,13 @@ smbpasswd -a training # add linux user to samba password db
 # test configuration 
 testparm 
 ```
+
+### Testing connection with smbclient 
+
+```
+smbclient -U training -L //10.10.2.106
+```
+
 
 ### The things with the acls ###
 

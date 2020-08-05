@@ -1,6 +1,15 @@
 # 2020sles15
 Training Potsdam SLES 15
 
+## Networking search order for hosts 
+
+```
+localhost:/etc # grep -r "files dns" .
+./nsswitch.conf:hosts:  	files dns
+./nsswitch.conf:networks:	files dns
+localhost:/etc # 
+```
+
 ## Search for pattern recursively in folder 
 
 ```

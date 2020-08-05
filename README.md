@@ -1,6 +1,17 @@
 # 2020sles15
 Training Potsdam SLES 15
 
+## sed ##
+
+Good introduction 
+
+https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux
+
+## awk ## 
+
+
+
+
 ## GIT pdf 
 
 http://schulung.t3isp.de/documents/pdfs/git/git-training.pdf

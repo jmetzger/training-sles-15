@@ -52,10 +52,24 @@ http://www.linux-praxis.de/linux3/samba6.html
 SLES 15:
 https://documentation.suse.com/sles/15-SP2/html/SLES-all/cha-samba.html
 
+```
 Manage samba-password db:
 # list all files 
 pdbedit -L 
 smbpasswd -a training # add linux user to samba password db 
+``` 
+
+```
+# test configuration 
+testparm 
+```
+
+### The things with the acls ###
+
+Supports windows acls 
+https://wiki.samba.org/index.php/Setting_up_a_Share_Using_Windows_ACLs
+
+But a bit tricky 
 
 ## basic networking ##
 

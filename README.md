@@ -52,6 +52,11 @@ http://www.linux-praxis.de/linux3/samba6.html
 SLES 15:
 https://documentation.suse.com/sles/15-SP2/html/SLES-all/cha-samba.html
 
+Manage samba-password db:
+# list all files 
+pdbedit -L 
+smbpasswd -a training # add linux user to samba password db 
+
 ## basic networking ##
 
 https://documentation.suse.com/sles/15-SP2/html/SLES-all/cha-network.html#sec-network-addresses

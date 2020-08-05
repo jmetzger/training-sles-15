@@ -1,6 +1,15 @@
 # 2020sles15
 Training Potsdam SLES 15
 
+## Ping fehlt ? ##
+
+zypper install iputils 
+
+```
+## bei installierten Paketen herausfinden, welches paket befehl bereitsstellt
+zypper se --provides ping 
+```
+
 ## Samba - Server ##
 
 Gute Einführung

@@ -97,6 +97,13 @@ Good introduction
 
 https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux
 
+```
+# Recognize Email 
+sed 's/.*/ &/;s/.* \([^ @]*@[^ @]*.com\).*/CENSORED/' emailstobecensored
+# Ref: https://www.unix.com/shell-programming-and-scripting/181361-sed-regex-extract-email-address.html
+```
+
+
 ## awk ## 
 
 

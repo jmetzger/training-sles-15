@@ -106,7 +106,7 @@ sed 's/.*/ &/;s/.* \([^ @]*@[^ @]*.com\).*/CENSORED/' emailstobecensored
 
 ## awk ## 
 
-
+https://www.tutorialspoint.com/awk/awk_basic_examples.htm
 
 
 ## GIT pdf 

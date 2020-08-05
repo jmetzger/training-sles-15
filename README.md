@@ -1,6 +1,22 @@
 # 2020sles15
 Training Potsdam SLES 15
 
+## Working with .ssh/config to predefine certain settings when connection
+
+```
+localhost:~/.ssh # cat config 
+Host peterson2
+    HostName 192.168.1.101
+    User training
+
+localhost:~/.ssh # ls -la
+total 8
+drwx------ 1 root root  34 Aug  5 10:14 .
+drwx------ 1 root root 182 Aug  5 10:14 ..
+-rw------- 1 root root  58 Aug  5 10:14 config
+-rw-r--r-- 1 root root 181 Aug  5 10:14 known_hosts
+```
+
 ## Networking search order for hosts 
 
 ```

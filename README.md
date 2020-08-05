@@ -1,6 +1,12 @@
 # 2020sles15
 Training Potsdam SLES 15
 
+## Search for pattern recursively in folder 
+
+```
+localhost:/etc # grep -r 192.168.1.100 .
+```
+
 ## Ping fehlt ? ##
 
 zypper install iputils 

@@ -1,6 +1,14 @@
 # 2020sles15
 Training Potsdam SLES 15
 
+## Samba - Server ##
+
+Gute Einführung
+https://www.thomas-krenn.com/de/wiki/Samba-Server_Grundlagen
+
+Spezialwissen (WINS-Server, Local Master Browser):
+http://www.linux-praxis.de/linux3/samba6.html
+
 ## basic networking ##
 
 https://documentation.suse.com/sles/15-SP2/html/SLES-all/cha-network.html#sec-network-addresses

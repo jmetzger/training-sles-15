@@ -103,6 +103,31 @@ sed 's/.*/ &/;s/.* \([^ @]*@[^ @]*.com\).*/CENSORED/' emailstobecensored
 # Ref: https://www.unix.com/shell-programming-and-scripting/181361-sed-regex-extract-email-address.html
 ```
 
+### Example for awk script (splitting fields with "-" as seperator between fields) 
+
+```
+### file awktest.sh
+### chmod u+x awktest.sh
+
+#!/usr/bin/awk -f  
+/tcp/ {
+ORS="";
+for (i=1; i<=5; i++) {
+   if ( i == 1 ) print $i;
+   else {
+     print " - ",$i
+   }
+}
+print "\n"
+}
+
+### Executing of script 
+./awktest.sh /etc/services 
+```
+
+### Great ressources for setting specific VAR for NEWLINE and FIELDSOUTPUT-Seperator
+
+https://www.funtoo.org/Awk_by_Example,_Part_2
 
 ## awk ## 
 

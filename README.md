@@ -4,6 +4,7 @@
 
   1. Installation / Administration 
      * [Working with modules/extensions](working-with-modules.md)  
+     * [Working with SUSEConnect](suseconnect.md) 
 
 
 

@@ -2,7 +2,7 @@
 
 ## General 
 
-  * modules extend fiuntionality
+  * modules extend functionality
   * extensions also, but require an additional license (registration key)
   
 ## Modules 

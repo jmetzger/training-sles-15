@@ -1,7 +1,17 @@
-# 2020sles15
-Training Potsdam SLES 15
+# Training SuSE Linux Enterprise 15 (SLES 15) 
 
-## Working with .ssh/config to predefine certain settings when connection
+## Agenda 
+
+  * Installation / Administration 
+    [Working with modules/extensions](working-with-modules.md)  
+
+
+
+
+
+## Backlog 
+
+### Working with .ssh/config to predefine certain settings when connection
 
 ```
 localhost:~/.ssh # cat config 
@@ -17,7 +27,7 @@ drwx------ 1 root root 182 Aug  5 10:14 ..
 -rw-r--r-- 1 root root 181 Aug  5 10:14 known_hosts
 ```
 
-## Networking search order for hosts 
+### Networking search order for hosts 
 
 ```
 localhost:/etc # grep -r "files dns" .
@@ -26,22 +36,22 @@ localhost:/etc # grep -r "files dns" .
 localhost:/etc # 
 ```
 
-## Search for pattern recursively in folder 
+### Search for pattern recursively in folder 
 
 ```
 localhost:/etc # grep -r 192.168.1.100 .
 ```
 
-## Ping fehlt ? ##
+### Ping fehlt ?
 
 zypper install iputils 
 
 ```
-## bei installierten Paketen herausfinden, welches paket befehl bereitsstellt
+### bei installierten Paketen herausfinden, welches paket befehl bereitsstellt
 zypper se --provides ping 
 ```
 
-## Samba - Server ##
+### Samba - Server ##
 
 Gute Einführung
 https://www.thomas-krenn.com/de/wiki/Samba-Server_Grundlagen

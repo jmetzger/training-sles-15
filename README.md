@@ -2,8 +2,8 @@
 
 ## Agenda 
 
-  * Installation / Administration 
-    [Working with modules/extensions](working-with-modules.md)  
+  1. Installation / Administration 
+     * [Working with modules/extensions](working-with-modules.md)  
 
 
 

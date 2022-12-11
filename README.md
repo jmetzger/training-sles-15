@@ -6,6 +6,7 @@
      * [Working with modules/extensions](working-with-modules.md)  
      * [Working with SUSEConnect](suseconnect.md) 
      * [Systemctl](systemctl.md)
+     * [firewalld](firewall/firewalld.md)
 
 
 

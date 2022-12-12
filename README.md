@@ -8,9 +8,12 @@
      * [Systemctl](systemctl.md)
      * [firewalld](firewall/firewalld.md)
 
+  1. Verzeichnisse und Dateitypen 
+     * [Verzeichnisaufbau](verzeichnisaufbau.md)
+     * [Dateitypen](dateitypen.md) 
+
   1. vim 
      * [vim](vim.md)
-  
   
   1. Unix-Tools 
      

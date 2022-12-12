@@ -7,6 +7,10 @@
      * [Working with SUSEConnect](suseconnect.md) 
      * [Systemctl](systemctl.md)
      * [firewalld](firewall/firewalld.md)
+  
+  1. Installation with zypper 
+     * [Zypper commands](zypper-commands.md)
+     * [Zypper cheatsheet](https://en.opensuse.org/images/3/30/Zypper-cheat-sheet-2.pdf)
 
   1. Verzeichnisse und Dateitypen 
      * [Verzeichnisaufbau](verzeichnisaufbau.md)
@@ -216,22 +220,6 @@ ls -la /dev | grep ^c
 # show all lines with k at the end of the line 
 ls -la /dev | grep k$ 
 ```
-
-
-## Registration ## 
-
-### Registering on command line ###
-
-```
-# Command -r registration code (from suse.com) 
-sudo SUSEConnect -r xxxxxxxxxxx -e name@domain
-
-# Documentation 
-https://documentation.suse.com/sles/15-SP2/html/SLES-all/cha-register-sle.html#sec-register-sle-system
-
-```
-
-
 
 ## Software ##
 

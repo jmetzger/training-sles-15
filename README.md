@@ -17,6 +17,9 @@
      * [Verzeichnisaufbau](verzeichnisaufbau.md)
      * [Dateitypen](dateitypen.md) 
 
+  1. sudo 
+     * [sudo unter SLES sicher einrichten](sudo-sles-15-einrichten.md)
+
   1. vim 
      * [vim](vim.md)
   

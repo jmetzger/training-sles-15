@@ -30,3 +30,8 @@ zypper search --only-installed -s
 zypper search yast*
 zypper search yast-
 ```
+
+```
+# you will find the modules there as well
+zypper search patterns*
+```

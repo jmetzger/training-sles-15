@@ -37,3 +37,72 @@
 
   * OpenLDAP -> 389ds (LDAPv3 compliant server) 
 
+## Automation 
+
+  * puppet->salt
+  * salt wird für das Konfigurationsmanagement benutzt. SUSE Manager 
+
+## X-Server 
+
+  * X11 -> Wayland 
+  * Gnome is now using Wayland by default (X11 before) 
+
+## unrar -> unar 
+
+  * Unar ersetzt aus lizenzrechtlichen Gründen unrar.
+
+## Changes in /etc/systemd/system.conf 
+
+```
+#CtrlAltDelBurstAction=reboot-force
+#DefaultStartLimitIntervalSec=10s
+#DefaultIOAccounting=no
+#DefaultTasksMax=15%
+```
+
+## /etc/init.d 
+
+  * is now empty
+  * SystemV Skripte können nicht aktiviert werden
+  * Falls nötig paket insserv-compat nachinstallieren
+
+## Netzwerk 
+
+  
+
+
+## SuSE-release 
+
+  * Datei SuSE-release ist entfernt worden
+
+## Floppy-Disk 
+
+  * Floppy Disk Support ist entfernt worden
+
+## Filesysteme 
+  
+  * ReiserFS - Support ist entfernt worden
+  * Der Installer blockiert eine Migration, wenn 
+    * ReiserFS entdeckt wird
+
+## Finger 
+ 
+  * Den Befehl gibt es nicht mehr 
+
+## cronjobs 
+
+```
+Einige cronjobs unter /etc/cron 
+(hourly,daily,weekly,monthly) sind jetzt als Timer Units implementiert worden.
+snapper-timeline.tiner
+backup-sysconfig.timer 
+backup-rpmdb.timer
+check-battery.timer 
+snapper-cleanup.timer
+systemd-tmpfiles-clean.timer 
+btrfs-balance.timer 
+fstrim.timer 
+#btrfs
+```
+
+```

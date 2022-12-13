@@ -12,7 +12,7 @@ systemctl list-units -t service
 systemctl list-units -t service | grep apache
 # die Abkürzung 
 systemctl -t service | grep apache
-
+# alle Dienste egal ob aktiviert oder nicht 
 systemctl list-unit-files -t service | grep ssh
 
 # Dienst aktivieren

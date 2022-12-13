@@ -13,3 +13,26 @@
 # Jeder, der in der Gruppe wheel ist, hat alle sudo root-Rechte 
 %wheel ALL=(ALL) ALL
 ```
+
+## Spezifische Rechte für Benutzer 
+
+```
+groupadd externer 
+useradd -m -aG externer extern
+passwd extern 
+```
+
+```
+#vi /etc/sudoers.d/externer 
+%externer ALL=(ALL) /usr/bin/systemctl restart *,/usr/bin/chown
+```
+
+```
+chmod 440 /etc/sudoers.d/externer 
+```
+
+```
+# Testen 
+su - extern 
+sudo systemctl restart sshd 
+```

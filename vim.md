@@ -40,7 +40,7 @@ set number
 
 ```
 v Zeichenweise markieren einschalten
-V Zeilenweise markieren einschalten
+V Zeilenweise markieren einschalten (SHIFT + v)
 STRG + v Blockweise markieren 
 
 # mit Cursortasten auswählen / markieren 

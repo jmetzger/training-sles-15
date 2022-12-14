@@ -10,6 +10,9 @@
      * [Working with SUSEConnect](suseconnect.md) 
      * [Systemctl](systemctl.md)
      * [firewalld](firewall/firewalld.md)
+     
+  1. Upgrade 
+     * [Upgrade SLES 15](sles-upgrade.md)
   
   1. Management with zypper and rpm
      * [Zypper commands](zypper-commands.md)

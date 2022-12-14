@@ -228,13 +228,7 @@ ls -la /dev | grep ^c
 ls -la /dev | grep k$ 
 ```
 
-## Software ##
 
 
-### Show available patterns ### 
 
-```
-# patterns = groups of software packages, that can be easily installed
-zypper search patterns_
-```
 

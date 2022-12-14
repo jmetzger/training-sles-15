@@ -36,7 +36,7 @@ zypper search yast-
 
 ```
 # patterns = groups of software packages, that can be easily installed
-zypper search patterns_
+zypper search patterns-
 ```
 
 ```

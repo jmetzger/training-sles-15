@@ -1,4 +1,4 @@
-# Änderrungen von SLES 12 zu SLES 15 
+# Änderungen von SLES 12 zu SLES 15 
 
 ## Modul - Struktur 
 

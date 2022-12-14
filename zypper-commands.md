@@ -31,7 +31,12 @@ zypper search yast*
 zypper search yast-
 ```
 
+
+## Show available patterns ### 
+
 ```
-# you will find the modules there as well
-zypper search patterns*
+# patterns = groups of software packages, that can be easily installed
+zypper search patterns_
+```
+
 ```

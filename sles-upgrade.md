@@ -14,7 +14,7 @@
   * https://documentation.suse.com/package-lists/sle/15-SP4/package-changes_SLE-15-SP3-GA_SLE-15-SP4-GA.txt
   * https://documentation.suse.com/package-lists/sle/15-SP4/module-changes_SLE-15-SP3-GA_SLE-15-SP4-GA.txt
 
-### Substep2 2:
+### Substep2:
 
   
  * Sichern von /etc,/var, /home (Empfehlung von SUSE)
@@ -25,7 +25,8 @@ zypper lr -e repositories.bak
 rpm -qa --queryformat '%{NAME}\n' > installed-software.bak
 ```
 
+```
 # wiederherstellen
 zypper ar repositories.bak.repo
 zypper install $(cat installed-software.bak)
-COPY
+```

@@ -10,7 +10,8 @@
 
 * https://www.suse.com/releasenotes/index.html
 * Matrix mit Links zu den Release Notes
-
+* Release Notes studieren:
+  * https://documentation.suse.com/package-lists/sle/15-SP4/package-changes_SLE-15-SP3-GA_SLE-15-SP4-GA.txt
 
 
 Sichern von /etc,/var, /home 

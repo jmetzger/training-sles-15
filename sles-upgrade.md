@@ -30,3 +30,9 @@ rpm -qa --queryformat '%{NAME}\n' > installed-software.bak
 zypper ar repositories.bak.repo
 zypper install $(cat installed-software.bak)
 ```
+
+## Optional: media_upgrade 
+
+```
+To force the installer to only install packages from the DVD and not from network sources, add the boot option media_upgrade=1.
+```

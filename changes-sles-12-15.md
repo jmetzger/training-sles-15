@@ -94,7 +94,7 @@
 ```
 Einige cronjobs unter /etc/cron 
 (hourly,daily,weekly,monthly) sind jetzt als Timer Units implementiert worden.
-snapper-timeline.tiner
+snapper-timeline.timer
 backup-sysconfig.timer 
 backup-rpmdb.timer
 check-battery.timer 
@@ -105,4 +105,16 @@ fstrim.timer
 #btrfs
 ```
 
+## Neues btrfs Layout für /var 
+
 ```
+SLES 12:
+verschiedene Subvolumes unter /var (mit COW) 
+
+SLES 15:
+nur noch subvolume /var -> ohne COW eingerichtet
+```
+
+## Fazit
+
+  * Veraltete Befehle sind entfernt worden 

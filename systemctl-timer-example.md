@@ -45,7 +45,10 @@ systemctl status scriptv2
 ## Schritt 3: Timer erstellen und testen 
 
 ```
-# systemctl edit --force --full scriptv2.timer
+systemctl edit --force --full scriptv2.timer
+```
+
+```
 [Unit]
 Description=Timer for scriptv2
 [Timer]

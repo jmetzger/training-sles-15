@@ -24,7 +24,10 @@ scriptv2.sh
 ## Schritt 2: Service erstellen und testen 
 
 ```
-# systemctl edit --force --full scriptv2.service 
+systemctl edit --force --full scriptv2.service 
+```
+
+```
 [Unit]
 Description=simple script for testing timer 
 [Service]

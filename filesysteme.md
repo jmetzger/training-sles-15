@@ -43,9 +43,9 @@ Quicker but not so many Features for Data Integrity
 
 ==== Vergleich der wichtigsten Filesysteme ====
 
-^  ^Ext3^Ext4^XFS^Btrfs^
+| | Ext3 | Ext4 | XFS | Btrfs |
+| -- | ------ | ---- | --- | ----- | 
 |Production-Ready|  ✔|  ✔|  ✔|teilweise|
-|Dateisystem Tools|	e2fsprogs (mke2fs, resize2fs , e2fsck, tune2fs)|	e2fsprogs (mke2fs, resize2fs , e2fsck, tune2fs)|	xfsprogs (mkfs.xfs, xfs_growfs, xfs_repair, xfs_admin)|	btrfs-progs (mkfs.btrfs, btrfs resize, btrfsck, btrfs filesystem)|
 |Max. Dateisystem-Größe|	16 TiB|	1 EiB|	16 EiB|	16 EiB|
 |Max. Datei-Größe|	2 TiB|	1 EiB|	8 EiB	8 EiB|
 |Online vergrößern|  ✔|   ✔|  ✔|  ✔|
@@ -56,8 +56,6 @@ Quicker but not so many Features for Data Integrity
 |Metadaten CRC|  ✔|  ✔|  ✔|  ✔|
 |Daten CRC|  -|  -|  -|  ✔|
 |Snapshots/Clones/Internal RAID/Compression|  -|  -|  -|  ✔|
-
-==== Der Klassiker ext2/ext3 bzw. ext4 ====
 
 
 ==== Das Journal-Filesystem ====
@@ -77,14 +75,6 @@ Quicker but not so many Features for Data Integrity
   * Erstes Filesystem von Linux überhaupt 
   * ext3 identisch mit ext2, jedoch mit Journaling 
   * ext4 Weiterentwicklung von ext3
-
-==== Was ist das Standard-Dateisystem für welches Linux ? ====
-
-^Linux Distribution^Standard-Dateisystem^
-|Debian (ab Debian 7.0 Wheezy)|Ext4|
-|RHEL / CentOS (ab RHEL 7.0)|XFS|
-|SLES (ab SLES 12)|Btrfs für /, XFS für Datenpartitionen|
-|Ubuntu (ab Ubuntu 9.04)|Ext4|
 
 ==== Vergrößern / Verkleinern von Dateisystemen ====
 

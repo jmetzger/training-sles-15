@@ -20,13 +20,14 @@ Safer because of COW (copy on Write)
 ```
 Good for bigger files (Performance)
 Bad Performance on small files
-So it is mainly used
+So it is mainly used for databases 
+Schneller Filesystem check
 ```
 
 ## Ext4:
 
 ```
-Verbesserung von ext2
+Verbesserung von ext3
 Journalbasiert, abwärtskompatibel
 Rocksolid 
 Quicker but not so many Features for Data Integrity 

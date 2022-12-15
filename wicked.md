@@ -23,8 +23,17 @@ systemctl list-units -t service | grep wicked
 ```
 
 
-### Journal abrufen 
+## Journal abrufen 
 
 ```
 journalctl -u wicked.service 
+```
+
+## wicked - commands 
+
+```
+wicked show all 
+wicked show lo 
+
+wicked show-xml all
 ```

@@ -33,6 +33,9 @@
      * [create a simple time with systemctl](systemctl-timer-example.md) 
   
   1. Unix-Tools 
+  
+  1. nfs-server 
+     * [NFS-Server unter SLES 15 einrichten](nfsserver-sles.md)
      
 
 

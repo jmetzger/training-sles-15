@@ -47,7 +47,23 @@ s : snapshot target type for both logical volumes
 ```
 
 ```
+# Now add something in folder to test it
+cd /mnt/lvtest 
+# Putting file test into folder 
+touch test 
+cd ../.. 
+
+
 # To restore it, you need to mount the backup 
+lvconvert --merge /dev/vg_data/lv_data /dev/vg_data/snapshot 
+# you need to unmount firstly 
+umount /dev/vg_data/lv_data 
+lvchange -a n /dev/vg_data/lv_data 
+lvchange -a y /dev/vg_data/lv_data
+mount /dev/vg_data/lv_data /mnt/lvtest
+cd /mnt/lvtest 
+ls -la 
+## test should not be there anymore 
 ```
 
 ## Reference 

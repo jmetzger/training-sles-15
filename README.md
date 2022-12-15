@@ -20,6 +20,7 @@
      * [Find out installed packages with version](rpm-zypper-package-versions.md)
 
   1. Verzeichnisse und Dateitypen 
+     * [Filesysteme](filesysteme.md)
      * [Verzeichnisaufbau](verzeichnisaufbau.md)
      * [Dateitypen](dateitypen.md) 
 

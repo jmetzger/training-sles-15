@@ -24,8 +24,9 @@ vgextend vg_data /dev/sdb4
 # Erstellt ein Snapshot in der gleichen Volume Group
 # muss die gleiche volume group sein 
 # -s -> snapshot erstellen 
-# "snapshot" is not allowed as name, as it is reserved 
-lvcreate -L 2G  -s  -n mysnapshot /dev/myvg/datavolume
+# "snapshot" is not allowed as name, as it is reserved
+lvdisplay 
+lvcreate -L 2G  -s  -n mysnapshot /dev/vg_data/lv_data
 ```
 
 ## Snapshot restore (zurückspielen) 

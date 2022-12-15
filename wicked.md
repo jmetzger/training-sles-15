@@ -34,6 +34,7 @@ journalctl -u wicked.service
 ```
 wicked show all 
 wicked show lo 
+wicked show eth0
 
 wicked show-xml all
 ```

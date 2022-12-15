@@ -31,6 +31,11 @@ zypper ar repositories.bak.repo
 zypper install $(cat installed-software.bak)
 ```
 
+### Substep 3:
+
+  * Patch current version 
+  * zypper patch 
+
 ## Optional: media_upgrade 
 
 ```

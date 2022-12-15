@@ -32,7 +32,7 @@ Rocksolid
 Quicker but not so many Features for Data Integrity 
 ```
 
-==== Linux Dateisysteme - Welche gibt es ? ====
+## Linux Dateisysteme - Welche gibt es ? 
 
   * ext2/ext3 
   * ext4
@@ -41,7 +41,7 @@ Quicker but not so many Features for Data Integrity
   * xfs 
   * reiserfs 
 
-==== Vergleich der wichtigsten Filesysteme ====
+## Vergleich der wichtigsten Filesysteme 
 
 | | Ext3 | Ext4 | XFS | Btrfs |
 | -- | ------ | ---- | --- | ----- | 
@@ -58,7 +58,7 @@ Quicker but not so many Features for Data Integrity
 |Snapshots/Clones/Internal RAID/Compression|  -|  -|  -|  ✔|
 
 
-==== Das Journal-Filesystem ====
+## Das Journal-Filesystem 
 
   * Alle Änderungn werden in ein Journal geschrieben, bevor sie auf Festplatte geschrieben werden 
   * Crashed das System z.B. durch Stromausfall, kann mit Hilfe des Journals wieder ein konsistenter Stand hergestellt werden. 
@@ -69,14 +69,14 @@ Quicker but not so many Features for Data Integrity
   * XFS 
   * reiserfs 
 
-==== Der Klassiker ext2/ext3 bzw. ext4 ====
+## Der Klassiker ext2/ext3 bzw. ext4 
 
   * ext2 (kein Journal) 
   * Erstes Filesystem von Linux überhaupt 
   * ext3 identisch mit ext2, jedoch mit Journaling 
   * ext4 Weiterentwicklung von ext3
 
-==== Vergrößern / Verkleinern von Dateisystemen ====
+##  Vergrößern / Verkleinern von Dateisystemen ====
 
 ^          Dateisysteme und ihre Möglichkeiten        ^^^
 ^ Dateisystem ^  Online  ^^  Offline  ^^

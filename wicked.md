@@ -38,3 +38,12 @@ wicked show eth0
 
 wicked show-xml all
 ```
+
+## Wicked Netzwerk-Karte hochziehen/runterziehen 
+
+```
+wicked ifdown eth0
+wicked show eth0 
+wicked ifup eth0 
+wicked show eth0 
+```

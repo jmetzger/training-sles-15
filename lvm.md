@@ -6,6 +6,18 @@
 lvresize --resizefs -L +128MiB /dev/vg_data/lv_data
 ```
 
+## Prerequisites 
+
+ * Volume Group needs to be big enough 
+
+```
+parted /dev/sdb mkpart lvtest3 5200MB 8200MB
+pvcreate /dev/sdb4
+vgextend vg_data /dev/sdb4 
+
+
+```
+
 ## Snapshot erstellen 
 
 ```
@@ -40,3 +52,4 @@ s : snapshot target type for both logical volumes
 ## Reference 
 
   * https://devconnected.com/lvm-snapshots-backup-and-restore-on-linux/
+  * https://linuxconfig.org/create-and-restore-manual-logical-volume-snapshots

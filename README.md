@@ -35,7 +35,8 @@
   
   1. Unix-Tools 
   
-  1. nfs-server 
+  1. nfs-server und lvm 
+     * [LVM logical volume erweitern](lvm.md)
      * [NFS-Server unter SLES 15 einrichten](nfsserver-sles.md)
      
   1. Documentation 

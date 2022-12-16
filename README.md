@@ -37,6 +37,7 @@
      * [create a simple time with systemctl](systemctl-timer-example.md) 
   
   1. Unix-Tools 
+     * [Beispiel - nur befehl von history auslesen mit unixtools](history-nur-befehl.md)
   
   1. nfs-server und lvm 
      * [LVM logical volume erweitern](lvm.md)

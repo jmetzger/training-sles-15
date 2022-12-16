@@ -143,7 +143,7 @@ firewall-cmd --add-service=postgresql --permanent
 # client tools installieren 
 zypper install -y postgresql14
 # Achtung erfolgt ohne passwords 
-psql -h <ip-des-postgres-servers>
+psql -h <ip-des-postgres-servers> -U postgres
 ```
 
 ## Ref:

@@ -5,8 +5,12 @@
 ```
 chronyc 
 (daemon not running from the beginning) 
-
 chronyd 
+
+systemctl status chronyd 
+
+yast ntp-client
+
 systemctl start chronyd 
 systemctl status chronyd
 systemctl enable chronyd

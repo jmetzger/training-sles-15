@@ -123,12 +123,28 @@ dropdb testdb;
 vi /var/lib/pgsql/data/postgresql.conf
 # listen_addresses
 listen_addresses='*'
+```
 
+```
+# vi /var/lib/pgsql/pg_hba.conf
+cat pg_hba.conf | grep -A 1 -i " ipv4"
+# IPv4 local connections:
+host    all             all             10.163.24.0/24          trust
+```
+
+```
 systemctl restart postgresql 
 firewall-cmd --add-service=postgresql 
 firewall-cmd --add-service=postgresql --permanent 
 ```
 
+```
+# vom anderen Rechner verbinden 
+# client tools installieren 
+zypper install -y postgresql14
+# Achtung erfolgt ohne passwords 
+psql -h <ip-des-postgres-servers>
+```
 
 ## Ref:
   

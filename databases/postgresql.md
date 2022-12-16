@@ -1,4 +1,4 @@
-# Installation and configuration of postgresql 10 
+# Installation and configuration of postgresql
 
 ## Walkthrough 
 

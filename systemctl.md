@@ -128,3 +128,21 @@ systemctl start apache2
 ## Systemctl - Cheatsheet - Ref 
 
   * https://www.linuxtrainingacademy.com/systemd-cheat-sheet/
+
+
+## Beispiel / Dienste starten / restarten 
+
+```
+[Unit]
+StartLimitInterval=400
+StartLimitBurst=3
+
+[Service]
+Restart=on-failure
+RestartSec=5
+```
+
+
+## Systemd - dokumentation 
+
+  * https://www.freedesktop.org/software/systemd/man/systemd.unit.html#

@@ -126,7 +126,7 @@ listen_addresses='*'
 ```
 
 ```
-# vi /var/lib/pgsql/pg_hba.conf
+# vi /var/lib/pgsql/data/pg_hba.conf
 cat pg_hba.conf | grep -A 1 -i " ipv4"
 # IPv4 local connections:
 host    all             all             10.163.24.0/24          trust

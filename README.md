@@ -10,6 +10,7 @@
      * [Working with SUSEConnect](suseconnect.md) 
      * [Systemctl](systemctl.md)
      * [firewalld](firewall/firewalld.md)
+     * [supportconfig](supportconfig.md)
      
   1. Upgrade 
      * [Upgrade SLES 15](sles-upgrade.md)

@@ -45,7 +45,7 @@ Quicker but not so many Features for Data Integrity
 ## Vergleich der wichtigsten Filesysteme 
 
 | | Ext3 | Ext4 | XFS | Btrfs |
-| -- | ------ | ---- | --- | ----- | 
+| --- | ------ | ---- | --- | ----- | 
 |Production-Ready|  ✔|  ✔|  ✔|teilweise|
 |Max. Dateisystem-Größe|	16 TiB|	1 EiB|	16 EiB|	16 EiB|
 |Max. Datei-Größe|	2 TiB|	1 EiB|	8 EiB	8 EiB|
@@ -82,7 +82,7 @@ Quicker but not so many Features for Data Integrity
 ### Dateisysteme und ihre Möglichkeiten 
 
 | Dateisystem | Online | Online | Offline | Offline |
- --- --- ---  --- ---
+| ---  | --- |  --- | --- | --- |
 | Vergrößern | Verkleinern | Vergrößern | Verkleinern |
 | ext2/ext3/ext4 |  ja|  nein|  ja|  ja|
 | ReiserFS |  nein|  nein|  ja|  ja|

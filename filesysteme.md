@@ -79,9 +79,11 @@ Quicker but not so many Features for Data Integrity
 
 ##  Vergrößern / Verkleinern von Dateisystemen ====
 
-^          Dateisysteme und ihre Möglichkeiten        ^^^
-^ Dateisystem ^  Online  ^^  Offline  ^^
-^ ^ Vergrößern ^ Verkleinern ^ Vergrößern ^ Verkleinern ^
+### Dateisysteme und ihre Möglichkeiten 
+
+| Dateisystem | Online | Online | Offline | Offline |
+ --- --- ---  --- ---
+| Vergrößern | Verkleinern | Vergrößern | Verkleinern |
 | ext2/ext3/ext4 |  ja|  nein|  ja|  ja|
 | ReiserFS |  nein|  nein|  ja|  ja|
 | JFS |  ja|  nein|  nein|  nein|

@@ -43,3 +43,11 @@ yast ntp-client
 statisch.
 dynamisch: erfolgt über dhcp 
 ```
+
+## Überprüfen 
+
+```
+systemctl status chronyd 
+date
+timedatectl 
+```

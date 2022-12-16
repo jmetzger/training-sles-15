@@ -42,6 +42,7 @@ su - postgres
 createuser -P -d testu
 createdb -O testu testdb
 psql testdb
+```
 
 ```
 # in psql 

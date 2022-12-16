@@ -6,7 +6,7 @@ umount /mnt/platte
 blockdev --getbsz /dev/sdb1 
 
 # not possible 
-blockdev --setbsz 8096 /dev/sdb1 
+blockdev --setbsz 8192 /dev/sdb1 
 
 # you can try 
 mkfs.ext4 -b 8192 /dev/sdb1 

@@ -42,6 +42,9 @@ su - postgres
 createuser -P -d testu
 createdb -O testu testdb
 psql testdb
+
+```
+# in psql 
 # Jetzt kann man eine Tabelle in der Datenbank anlegen:
 CREATE TABLE books ( id int, name varchar(80), publisher varchar(80), date_published date );
 ```

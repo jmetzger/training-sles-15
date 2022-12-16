@@ -48,6 +48,9 @@
   1. Autoyast 
      * [autoyast](autoyast.md)
      
+  1. nfs / Zeitserver 
+     * [Chrony](chrony.md) 
+     
   1. Documentation 
      * [What is journal ordered in ext3/ext4](https://people.redhat.com/rpeterso/KB/ext3_tune.html)
      * [Maximum blocksize of ext4 and tests](ext4-changing-blocksize.md)

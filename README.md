@@ -14,6 +14,9 @@
   1. Upgrade 
      * [Upgrade SLES 15](sles-upgrade.md)
   
+  1. Installation Datenbanken 
+     * [postgresql](/databases/postgresql.md)
+
   1. Management with zypper and rpm
      * [Zypper commands](zypper-commands.md)
      * [Zypper cheatsheet](https://en.opensuse.org/images/3/30/Zypper-cheat-sheet-2.pdf)

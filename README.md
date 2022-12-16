@@ -55,6 +55,7 @@
      * [What is journal ordered in ext3/ext4](https://people.redhat.com/rpeterso/KB/ext3_tune.html)
      * [Maximum blocksize of ext4 and tests](ext4-changing-blocksize.md)
      * [Journal - Groesse anpassen](journal-groesse-anpassen.md)
+     * [Server in AD einbinden](sssd-ads.md) 
 
 
 ## Backlog 

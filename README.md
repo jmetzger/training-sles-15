@@ -17,6 +17,7 @@
   
   1. Installation Datenbanken 
      * [postgresql](/databases/postgresql.md)
+     * [mariadb](/databases/mariadb.md) 
 
   1. Management with zypper and rpm
      * [Zypper commands](zypper-commands.md)

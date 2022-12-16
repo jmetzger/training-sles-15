@@ -21,3 +21,15 @@ systemctl enable mariadb
 mysql_secure_installation 
 ```
 
+## Einige Kommandos 
+
+```
+mysql>
+show databases;
+use mysql;
+select * from user;
+select * from user \G
+pager less 
+select * from user \G
+nopager 
+```

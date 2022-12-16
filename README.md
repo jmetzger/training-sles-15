@@ -216,9 +216,6 @@ zypper patch-check
 zypper patch-check | tail -n 1 | cut -d ' ' -f1 # show field 1 -> -f1 && use space as delimiter -d ' '  
 ```
 
-## autoyast ##
-https://documentation.suse.com/sles/15-SP1/html/SLES-all/book-autoyast.html
-
 
 ## Kernel Parameters at boot time ##
 

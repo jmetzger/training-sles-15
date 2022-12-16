@@ -107,7 +107,7 @@ drop table books;
 
 ```
 # in bash
-dropdb books; 
+dropdb testdb; 
 ```
 
 ## Ref:

@@ -83,8 +83,7 @@ Quicker but not so many Features for Data Integrity
 
 | Dateisystem | Online | Online | Offline | Offline |
 | ---  | --- |  --- | --- | --- |
-|  | Vergrößern | Verkleinern | Vergrößern | Verkleinern |
-| ---  | --- |  --- | --- | --- |
+|  | *Vergrößern* | *Verkleinern* | *Vergrößern* | *Verkleinern* |
 | ext2/ext3/ext4 |  ja|  nein|  ja|  ja|
 | ReiserFS |  nein|  nein|  ja|  ja|
 | JFS |  ja|  nein|  nein|  nein|

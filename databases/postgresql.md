@@ -126,7 +126,7 @@ listen_addresses='*'
 
 systemctl restart postgresql 
 firewall-cmd --add-service=postgresql 
-firewall-cmd --add-service=postgresql
+firewall-cmd --add-service=postgresql --permanent 
 ```
 
 

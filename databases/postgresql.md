@@ -117,6 +117,19 @@ drop table books;
 dropdb testdb; 
 ```
 
+## Authentifizierung von remote 
+
+```
+vi /var/lib/pgsql/data/postgresql.conf
+# listen_addresses
+listen_addresses='*'
+
+systemctl restart postgresql 
+firewall-cmd --add-service=postgresql 
+firewall-cmd --add-service=postgresql
+```
+
+
 ## Ref:
   
   * https://de.opensuse.org/PostgreSQL

@@ -93,11 +93,11 @@ Quicker but not so many Features for Data Integrity
 
 * Vergrößern ext3/ext4 seit Kernel 2.6.
 
-==== Vorgehen beim Verkleinern / Vergrößern ====
+### Vorgehen beim Verkleinern / Vergrößern
 
   * Vor dem Verkleinern einer Partition bzw. eines Logical Volume immer zuerst das Dateisystem verkleinern
   * Vor dem Vergrößern des Dateisystems immer zuerst das Logical Volume bzw. die Partition vergrößern
 
-==== Verkleinern/Vergrößern - gute Referenz ====
+### Verkleinern/Vergrößern - gute Referenz
 
   * https://wiki.ubuntuusers.de/Dateisystemgr%C3%B6%C3%9Fe_%C3%A4ndern/

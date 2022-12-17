@@ -39,4 +39,3 @@ zypper search yast-
 zypper search patterns-
 ```
 
-```

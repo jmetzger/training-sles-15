@@ -193,11 +193,6 @@ https://www.funtoo.org/Awk_by_Example,_Part_2
 https://www.tutorialspoint.com/awk/awk_basic_examples.htm
 
 
-## GIT pdf 
-
-http://schulung.t3isp.de/documents/pdfs/git/git-training.pdf
-
-
 ## Change console layout 
 
 ```

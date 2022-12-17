@@ -6,3 +6,4 @@
 [Journal]
 SystemMaxUse=50M
 SystemMaxFileSize=10M
+```

@@ -132,25 +132,25 @@ smbclient -U training -L //10.10.2.106
 ```
 
 
-### The things with the acls ###
+### The things with the acls 
 
 Supports windows acls 
 https://wiki.samba.org/index.php/Setting_up_a_Share_Using_Windows_ACLs
 
 But a bit tricky 
 
-### Mount other share on other server (samba) ###
+### Mount other share on other server (samba) 
 
 ```
 mount.cifs //10.10.2.106/dokumente /mnt/dokumente -o username=training,password=training
 # or mount -t cifs 
 ```
 
-## basic networking ##
+### basic networking 
 
 https://documentation.suse.com/sles/15-SP2/html/SLES-all/cha-network.html#sec-network-addresses
 
-## sed ##
+### sed 
 
 Good introduction 
 
@@ -188,28 +188,28 @@ print "\n"
 
 https://www.funtoo.org/Awk_by_Example,_Part_2
 
-## awk ## 
+### awk 
 
 https://www.tutorialspoint.com/awk/awk_basic_examples.htm
 
 
-## Change console layout 
+### Change console layout 
 
 ```
 # switch to german layout
 sudo loadkeys de 
 ```
-## grep - show header 
+### grep - show header 
 
 ```
 ps xo pid,comm | head -n 1; ps xo pid,comm | grep 11
 ```
 
-## systemctl cheatsheet ##
+### systemctl cheatsheet 
 
 https://www.linuxtrainingacademy.com/systemd-cheat-sheet/
 
-## zypper ##
+### zypper 
 https://en.opensuse.org/images/1/17/Zypper-cheat-sheet-1.pdf
 
 ```
@@ -219,21 +219,21 @@ zypper patch-check | tail -n 1 | cut -d ' ' -f1 # show field 1 -> -f1 && use spa
 ```
 
 
-## Kernel Parameters at boot time ##
+### Kernel Parameters at boot time 
 
 https://documentation.suse.com/sles/15-SP1/html/SLES-all/cha-boot-parameters.html
 
-## Kernel - crashkernel ## 
+### Kernel - crashkernel
 
 https://www.suse.com/de-de/support/kb/doc/?id=000016171
 
 
-## Package Management ## 
+### Package Management 
 
 Cheatsheet: https://danilodellaquila.com/en/blog/linux-package-management-cheatsheet
 
 
-## Commands ## 
+### Commands 
 
 ```
 # Kernelversion die geladen ist, anzeigen 

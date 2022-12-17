@@ -3,7 +3,7 @@
 ## Agenda 
 
   1. Grundlagen 
-     * [Änderungen von SLES 12 -> 15](changes-sles-12-15.md)
+     * [Änderungen von SLES 12 zu 15](changes-sles-12-15.md)
 
   1. Installation / Administration
      * [Working with modules/extensions](working-with-modules.md)  

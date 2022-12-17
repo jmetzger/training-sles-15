@@ -21,7 +21,7 @@
 
   1. Management with zypper and rpm
      * [Zypper commands](zypper-commands.md)
-     * [Zypper cheatsheet](https://en.opensuse.org/images/3/30/Zypper-cheat-sheet-2.pdf)
+     * [Zypper cheatsheet](zypper-cheatsheet.md)
      * [Find out installed packages with version](rpm-zypper-package-versions.md)
 
   1. Verzeichnisse und Dateitypen 

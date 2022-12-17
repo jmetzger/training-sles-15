@@ -3,7 +3,7 @@
 
 ## Agenda
   1. Grundlagen 
-     * [Änderungen von SLES 12 -> 15](#änderungen-von-sles-12-->-15)
+     * [Änderungen von SLES 12 zu 15](#änderungen-von-sles-12-zu-15)
 
   1. Installation / Administration
      * [Working with modules/extensions](#working-with-modulesextensions)
@@ -21,7 +21,7 @@
 
   1. Management with zypper and rpm
      * [Zypper commands](#zypper-commands)
-     * [Zypper cheatsheet](https://en.opensuse.org/images/3/30/Zypper-cheat-sheet-2.pdf)
+     * [Zypper cheatsheet](#zypper-cheatsheet)
      * [Find out installed packages with version](#find-out-installed-packages-with-version)
 
   1. Verzeichnisse und Dateitypen 
@@ -257,7 +257,7 @@ ls -la /dev | grep k$
 
 ## Grundlagen 
 
-### Änderungen von SLES 12 -> 15
+### Änderungen von SLES 12 zu 15
 
 
 ### Modul - Struktur 
@@ -1048,11 +1048,11 @@ zypper search yast-
 zypper search patterns-
 ```
 
-```
 
 ### Zypper cheatsheet
 
-  * https://en.opensuse.org/images/3/30/Zypper-cheat-sheet-2.pdf
+
+* https://en.opensuse.org/images/3/30/Zypper-cheat-sheet-2.pdf
 
 ### Find out installed packages with version
 

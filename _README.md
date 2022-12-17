@@ -1684,6 +1684,7 @@ mkfs.ext4 -b 8192 /dev/sdb1
 [Journal]
 SystemMaxUse=50M
 SystemMaxFileSize=10M
+```
 
 ### Server in AD einbinden
 
